@@ -3,12 +3,12 @@ public class App {
 
         Conta cliente = new Conta("Lukas", 1200.43);
 
-        cliente.getSaudo();
+        cliente.getSaldo();
         cliente.sacar(10.12);
-        cliente.getSaudo();
+        cliente.getSaldo();
         cliente.depositar(23.34);
-        cliente.getSaudo();
+        cliente.getSaldo();
         cliente.sacar(1300.0);
-        cliente.getSaudo();
+        cliente.getSaldo();
     }
 }

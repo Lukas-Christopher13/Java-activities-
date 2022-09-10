@@ -14,7 +14,7 @@ public class Conta {
         amount += quantia;
     }
 
-    public void getSaudo()
+    public void getSaldo()
     {
         System.out.printf("%s possui R$ %.2f\n", nome, amount);
     }
